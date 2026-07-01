@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0195/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說腹中女聽經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0563.xml
+    old_id: T14n0563
+hash: sha256:315c0a412432f1cd3ca756c64dd6b4d50bca2e749cbc8435f9ae21b13e17a10a

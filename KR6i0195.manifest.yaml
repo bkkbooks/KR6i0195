@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0195/v1
+canonical_location: https://kanripo.org/bkk/KR6i0195/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說腹中女聽經
+  identifiers:
+    alt_id:
+    - T14n0563
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0563.xml
+    old_id: T14n0563
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0195_000.yaml, hash: 'sha256:315c0a412432f1cd3ca756c64dd6b4d50bca2e749cbc8435f9ae21b13e17a10a'}
+  - {seq: 1, filename: KR6i0195_001.yaml, hash: 'sha256:63d23a06abb44c9ab3d2e566a5e65e65333f88717ff7a27d42af5c7609dfa9a7'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0195_001.markers.yaml, hash: 'sha256:8def414fa47eb0da2f85efa959cc6c7b79679c185e5ab74643b021862af63f36'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0195_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1145
+  label: 佛說腹中女聽經
+  type: juan
+  level: 1
+hash: sha256:074ebe7744cd7492527f5fbd15fa20c152df6cb37b91215ce56862afbe46e82b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
