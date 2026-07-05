@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0195_000.yaml, hash: 'sha256:315c0a412432f1cd3ca756c64dd6b4d50bca2e749cbc8435f9ae21b13e17a10a'}
-  - {seq: 1, filename: KR6i0195_001.yaml, hash: 'sha256:63d23a06abb44c9ab3d2e566a5e65e65333f88717ff7a27d42af5c7609dfa9a7'}
+  - {seq: 1, filename: KR6i0195_001.yaml, hash: 'sha256:e6f75c20524eb1314f105b17198303eb78baee0eb3ed5a0c445183e861d9c23f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0195_001.markers.yaml, hash: 'sha256:8def414fa47eb0da2f85efa959cc6c7b79679c185e5ab74643b021862af63f36'}
+  - {seq: 0, role: markers, filename: assets/KR6i0195_000.markers.yaml, hash: 'sha256:6acc59ba1184dd2e3fe449008ad210803ce4c80028a0978be5e1878412dc68dc'}
+  - {seq: 1, role: markers, filename: assets/KR6i0195_001.markers.yaml, hash: 'sha256:0ec477c1c8ba7f2435ae650a52b480622a89f5863eaf7eef12294cb07061f6fc'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說腹中女聽經
   type: juan
   level: 1
-hash: sha256:074ebe7744cd7492527f5fbd15fa20c152df6cb37b91215ce56862afbe46e82b
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:db9380fa9264772f49b7e0e331362880f4781d6ae3896ee8c8f167d58305113d
