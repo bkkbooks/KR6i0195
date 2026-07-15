@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0195/v1
 canonical_location: https://kanripo.org/bkk/KR6i0195/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說腹中女聽經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0195_000.yaml, hash: 'sha256:315c0a412432f1cd3ca756c64dd6b4d50bca2e749cbc8435f9ae21b13e17a10a'}
-  - {seq: 1, filename: KR6i0195_001.yaml, hash: 'sha256:e6f75c20524eb1314f105b17198303eb78baee0eb3ed5a0c445183e861d9c23f'}
+  - {seq: 1, filename: KR6i0195_001.yaml, hash: 'sha256:7f546003a416e5535cfd1de777616881e6fe901e7712fb9081d54c03231ce46a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0195_000.markers.yaml, hash: 'sha256:6acc59ba1184dd2e3fe449008ad210803ce4c80028a0978be5e1878412dc68dc'}
-  - {seq: 1, role: markers, filename: assets/KR6i0195_001.markers.yaml, hash: 'sha256:0ec477c1c8ba7f2435ae650a52b480622a89f5863eaf7eef12294cb07061f6fc'}
+  - {seq: 1, role: markers, filename: assets/KR6i0195_001.markers.yaml, hash: 'sha256:f24f206851df19ea7888281869c8ba26227ceb184edbc4b6f29993cfc2ff059e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說腹中女聽經
   type: juan
   level: 1
-hash: sha256:db9380fa9264772f49b7e0e331362880f4781d6ae3896ee8c8f167d58305113d
+hash: sha256:4c9b6d4d557e30db9c05c56a4078231dc629aabd80ed05f3cdf5bf86d8280204
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
